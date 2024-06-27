@@ -161,7 +161,7 @@ section {
     display: flex;
     gap: 2rem;
     position: fixed;
-    top: .7rem;
+    top: .1rem;
 }
 
 #reset-button, #submit-button{
