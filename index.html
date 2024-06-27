@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Puzzle</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <Header></Header>
+    <section>
+        <div id="vegetable-modal" class="modal">
+            <div class="modal-content">
+              <span id="close-button">&times;</span>
+              <h2>Escolha um vegetal</h2>
+              <div class="vegetable-options">
+                <div class="vegetable-option pumpkin" data-veggie="Pumpkin">
+                    <span>Abóbora</span>
+                    <img src="/images/pumpkin-fruit-svgrepo-com.svg" alt="Abóbora" class="vegetable">
+                </div>
+                <div class="vegetable-option cabbage" data-veggie="Cabbage">
+                    <span>Repolho</span>
+                    <img src="/images/cabbage-svgrepo-com.svg" alt="Repolho" class="vegetable">
+                </div>
+                <div class="vegetable-option potato" data-veggie="Potato">
+                    <span>Batata</span>
+                    <img src="/images/potato-svgrepo-com.svg" alt="Batata" class="vegetable">
+                </div>
+                <div class="vegetable-option carrot" data-veggie="Carrot">
+                    <span>Cenoura</span>
+                    <img src="/images/carrot-svgrepo-com.svg" alt="Cenoura" class="vegetable">
+                </div>
+              </div>
+            </div>
+        </div>
+        <div id="wood">
+            <div class="earth">
+                <div id="a1" class="plant-site pumpkin fixed"></div>
+                <div id="a2" class="plant-site available"></div>
+                <div id="a3" class="plant-site cabbage fixed"></div>
+                <div id="a4" class="plant-site available"></div>
+            </div>
+            <div class="earth">
+                <div id="b1" class="plant-site available"></div>
+                <div id="b2" class="plant-site available"></div>
+                <div id="b3" class="plant-site potato fixed"></div>
+                <div id="b4" class="plant-site available"></div>
+            </div>
+            <div class="earth">
+                <div id="c1" class="plant-site available"></div>
+                <div id="c2" class="plant-site available"></div>
+                <div id="c3" class="plant-site available"></div>
+                <div id="c4" class="plant-site available"></div>
+            </div>
+            <div class="earth">
+                <div id="d1" class="plant-site cabbage fixed"></div>
+                <div id="d2" class="plant-site carrot fixed"></div>
+                <div id="d3" class="plant-site available"></div>
+                <div id="d4" class="plant-site available"></div>
+            </div>
+        </div>
+        <div id="buttons">
+            <button id="reset-button"><img src="/images/reset-reload-refresh-sync-arrow-update-svgrepo-com.svg" alt="reset"><span>Reset</span></button>
+            <button id="submit-button"><img src="/images/submit-success-check-mark-svgrepo-com.svg" alt="submit"><span>Pronto!</span></button>
+        </div>
+    </section>
+</body>
+<script src="/javascript/script.js"></script>
+</html>
